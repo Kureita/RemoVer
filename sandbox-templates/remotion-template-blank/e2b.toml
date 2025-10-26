@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (wj8rar9fr5jsuhqcrfcw) or template name (remotion-template-blank-v0) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox.create("remotion-template-blank-v0") # Sync sandbox
+# sandbox = await AsyncSandbox.create("remotion-template-blank-v0") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('remotion-template-blank-v0')
+
+team_id = "f1854629-72a3-4731-a032-8b6e422e27a8"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "remotion-template-blank-v0"
+template_id = "wj8rar9fr5jsuhqcrfcw"
